@@ -93,11 +93,11 @@ p {
 	padding: 20px;
 }
 .sidebar_container {
+	float:right;
 	width: 270px;
-	overflow: auto;
-	clear: both;
 	background: #ffffff;
-	padding: 20px;
+	padding: 5px;
+	border: 5px #ffffff;
 }
 .container_connect_with_me {
 	float:right;
@@ -106,21 +106,13 @@ p {
     border: 5px #ffffff;
     padding: 5px;
     margin: 5px;
-}
-.container_index {
-	float:right;
-    background-color: #ffffff;
-    width: 100px;
-    border: 5px #ffffff;
-    padding: 5px;
     margin: 5px;
 }
+
 .left {
 	float: left;
 	width: 500px;
 	color: #000000;
-	/*font-family: Georgia, sans-serif;*/
-	/*background: #ffffff;*/
 	margin: 20px;
 }
 
