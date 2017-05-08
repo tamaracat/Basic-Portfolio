@@ -4,11 +4,12 @@
 <meta charset="UTF-8">
   <title>Tamara Tangney</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 </head>
 <body>
 
 <div class = "container_header">
-  <div class="left">
+  <div class="container_in_header">
       <h1>Tamara Tangney<h1> 
   </div>
   <div class="container_index">
@@ -35,17 +36,26 @@
       </aside>
       </div>
 
-  	<section class="inside_container">
-  	<h2> Contact </h2>
-  	<br>
-  	<h3> Name </h3>
-  	<h3> e-mail </h3>
-  	<h3> Message </h3>
-  	<button>Message</button>
-    	
   	
-	</section>
-</section>
+<div class="inside_container">
+<h3>Contact Form</h3>
+<div class="container_contact">
+  <form action="/action_page.php">
+    <label for="fname"><div class="p_center">First Name</label></div>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname"><div class="p_center">Last Name</label></div>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </select>
+
+    <label for="subject"><div class="p_center">Subject</label></div>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Message">
+  </form>
+</div>
+</div>
+
 <div class="division"></div>
 
 <footer>
